@@ -6,8 +6,9 @@ on:
     - cron: "* * * * *"
 
 jobs:
-  test:
+  Build_and_test:
     runs-on: ubuntu-latest
+    
     steps:
-    -name: Set up docker
-    run: date
+    - name: Set up docker
+      run: date
