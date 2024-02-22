@@ -9,4 +9,5 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
+    -name: Set up docker
     run: date
